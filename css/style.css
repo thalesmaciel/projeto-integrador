@@ -1,55 +1,28 @@
-.bolinha {
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	position: relative;
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative');
 
-	animation-name: bolinhas;
-	animation-duration: 4s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+body {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 1.5em !important;
+
 }
 
-.bolinha1 {
-	background-color: red;
+h5 {
+	text-align: center;
 }
 
-.bolinha2 {
-	background-color: green;
-	transform: translateY(-20px);
-	animation-delay: 0.2s;
+.card-text {
+	text-align: justify;
 }
 
-.bolinha3 {
-	background-color: blue;
-	transform: translateY(-40px);
-	animation-delay: 0.4s;
+.jumbotron {
+	border-radius: 0px !important;
 }
 
-@keyframes bolinhas {
-	0% {
-		left: 0px;
-		top: 0px;
-	}
-
-	25% {
-		left: 200px;
-		top: 200px;
-	}
-
-	50% {
-		left: 200px;
-		top: 0px;
-		filter: hue-rotate(180deg);
-	}
-
-	75% {
-		left: 0px;
-		top: 200px;
-	}
-
-	100% {
-		left: 0px;
-		top: 0px;
-	}
+.fundo--bg {
+	background-color: #007bff !important;
 }
+
+.nav-link {
+	color: white !important;
+}
+
