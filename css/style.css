@@ -3,6 +3,7 @@
 body {
 	font-family: 'Signika Negative', sans-serif;
 	font-size: 1.5em !important;
+	background: #E5ECE9;
 
 }
 
@@ -16,6 +17,7 @@ h5 {
 
 .jumbotron {
 	border-radius: 0px !important;
+	background-color: white;
 }
 
 .fundo--bg {
@@ -26,3 +28,8 @@ h5 {
 	color: white !important;
 }
 
+.gradiente {
+	background-image: linear-gradient(to left, #BD0227, #500287);
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
